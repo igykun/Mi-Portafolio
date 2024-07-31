@@ -1,0 +1,21 @@
+.skills {
+    &__list{
+        display: flex;
+        justify-content: center;
+    }
+    &__item {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        // margin: 1rem 0.6rem;
+    }
+
+    &__i, &__name {
+        margin: auto 0.063rem;
+    }
+
+    &__i{
+        font-size: 2rem;
+    }
+
+}

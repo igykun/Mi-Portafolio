@@ -1,0 +1,51 @@
+$blue-gray: #bee9e8;
+$dark-blue: #2b2d42;
+$orange: #f4a261;
+$light-blue: #a2d2ff;
+$pink: #ffafcc;
+$purple: #560bad;
+$dark-orange: #fb5607;
+$light-black: #343a40;
+$yellow: #ffd500;
+$light-green: #57cc99;
+$light-pink: #ffc2d1;
+
+.text-lightblack {
+    color: $light-black;
+}
+
+.text-yellow {
+    color: $yellow;
+}
+
+.text-lightgreen{
+    color: $light-green;
+}
+
+.text-orange{
+    color: $orange
+}
+
+.text-lightblue{
+    color: $light-blue
+}
+
+.text-pink {
+    color: $pink;
+}
+
+.text-purple{
+    color: $purple;
+}
+
+.text-darkorange{
+    color: $dark-orange;
+}
+
+.text-darkblue{
+    color: $dark-blue;
+}
+
+.bg-darkblue {
+    background-color: $dark-blue !important;
+}
