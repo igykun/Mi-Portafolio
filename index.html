@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/b1ea5d1f2a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <title>Bootstrap as framework css</title>
+    <title>Mi portafolio</title>
   </head>
   <body>
     <header class="header container">
@@ -28,16 +28,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="header__ulist navbar-nav">
               <li class="header__listitem nav-item">
-                <a class="header__link nav-link" href="#main">Inicio</a>
+                <a class="header__link nav-link active text-darkblue fw-bold" href="#main">Inicio</a>
               </li>
               <li class="header__listitem nav-item">
-                <a class="header__link nav-link" href="#skills">Mis habilidades</a>
+                <a class="header__link nav-link text-darkblue fw-bold" href="#skills">Mis habilidades</a>
               </li>
               <li class="header__listitem nav-item">
-                <a class="header__link nav-link" href="#proyects">Proyecto</a>
+                <a class="header__link nav-link text-darkblue fw-bold" href="#proyects">Proyecto</a>
               </li>
               <li class="header__listitem nav-item">
-                <a class="header__link nav-link" href="#contact">Contacto</a>
+                <a class="header__link nav-link text-darkblue fw-bold" href="#contact">Contacto</a>
               </li>
             </ul>
           </div>
@@ -49,68 +49,69 @@
         <div class="main__row row">
           <div class="main__left col-12 col-md-8">
             <img
+              style="height:300px"
               src="./assets/img/developer.svg"
               alt="imagen principal"
-              class="main__img img-fluid"
+              class="main__img"
             />
           </div>
           <div class="main__right col-12 col-md-4">
-            <h1 class="main__title text-darkblue fs-1">Soy La Puca</h1>
-            <h2 class="main__subtitle fs-3">Desarrollador FrontEnd</h2>
+            <h1 class="main__title text-darkblue fs-1 fw-bolder">Ignacio Jara</h1>
+            <h2 class="main__subtitle fs-3 fw-bold">Desarrollador FrontEnd</h2>
             <p class="main__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
               molestiae dolor quibusdam quas? Laboriosam nostrum corrupti
               expedita ipsam qui. Natus temporibus delectus velit accusantium
               repellat beatae laboriosam vero culpa fugit.
             </p>
-            <button type="button" class="main__contact bg-darkblue rounded text-white">Contactame</button>
+            <button type="button" class="main__contact bg-darkblue rounded text-white w-sm-100">Contactame</button>
           </div>
         </div>
       </div>
     </main>
     <hr>
     <section id="skills" class="skills container">
-        <h3 class="skills__title text-darkblue text-center">
+        <h3 class="skills__title text-darkblue text-center fw-bolder">
             Mis habilidades
         </h3>
         <div class="skills__list row">
-            <div class="skills__item col-6 col-md-1 mx-md-2 my-3">
+            <div class="skills__item col-6 col-md-1 mx-md-2 my-3 d-sm-flex justify-content-start">
                 <i class="skills__i fa-brands fa-html5 text-orange"></i>
-                <p class="skills__name">HTML</p>
+                <p class="skills__name fw-bold">HTML</p>
             </div>
-            <div class="skills__item col-6 col-md-1 mx-md-2 my-3">
+            <div class="skills__item col-6 col-md-1 mx-md-2 my-3 d-sm-flex justify-content-start">
                 <i class="skills__i fa-brands fa-git-alt text-darkorange"></i>
-                <p class="skills__name">Git</p>
+                <p class="skills__name fw-bold">Git</p>
             </div>
-            <div class="skills__item col-6 col-md-1 mx-md-2 my-3">
+            <div class="skills__item col-6 col-md-1 mx-md-2 my-3 d-sm-flex justify-content-start">
                 <i class="skills__i fa-brands fa-css3-alt text-lightblue"></i>
-                <p class="skills__name">CSS</p>
+                <p class="skills__name fw-bold">CSS</p>
             </div>
-            <div class="skills__item col-6 col-md-1 mx-md-2 my-3">
+            <div class="skills__item col-6 col-md-1 mx-md-2 my-3 d-sm-flex justify-content-start">
                 <i class="skills__i fa-brands fa-github text-lightblack"></i>
-                <p class="skills__name">Github</p>
+                <p class="skills__name fw-bold">Github</p>
             </div>
-            <div class="skills__item col-6 col-md-1 mx-md-2 my-3">
+            <div class="skills__item col-6 col-md-1 mx-md-2 my-3 d-sm-flex justify-content-start">
                 <i class="skills__i fa-brands fa-github text-pink"></i>
-                <p class="skills__name">Sass</p>
+                <p class="skills__name fw-bold">Sass</p>
             </div>
-            <div class="skills__item col-6 col-md-1 mx-md-2 my-3">
+            <div class="skills__item col-6 col-md-1 mx-md-2 my-3 d-sm-flex justify-content-start">
                 <i class="skills__i fa-brands fa-js text-yellow"></i>
-                <p class="skills__name">JavaScript</p>
+                <p class="skills__name fw-bold">JavaScript</p>
             </div>
-            <div class="skills__item col-6 col-md-1 mx-md-2 my-3">
+            <div class="skills__item col-6 col-md-1 mx-md-4 my-3 d-sm-flex justify-content-start">
                 <i class="skills__i fa-brands fa-bootstrap text-purple"></i>
-                <p class="skills__name">Bootstrap</p>
+                <p class="skills__name fw-bold">Bootstrap</p>
             </div>
-            <div class="skills__item col-6 col-md-1 mx-md-2 my-3">
+            <div class="skills__item col-6 col-md-1 mx-md-2 my-3 d-sm-flex justify-content-start">
                 <i class="skills__i fa-brands fa-vuejs text-lightgreen"></i>
-                <p class="skills__name">Vue</p>
+                <p class="skills__name fw-bold">Vue</p>
             </div>
         </div>
     </section>
     <hr>
     <section id="proyects" class="proyects container">
-        <h3 class="proyects__title text-center text-darkblue my-4">
+        <h3 class="proyects__title text-center text-darkblue my-4 fw-bolder">
             Mis proyectos
         </h3>
         <div class="proyects__row row">
@@ -147,20 +148,20 @@
     <hr>
     <footer id="contact" class="contact container">
         <div class="contact__row row">
-            <h3 class="contact__title text-start text-md-center my-3">
+            <h3 class="contact__title text-start text-md-center my-3 fw-bolder">
                 Contactame
             </h3>
             <div class="contact__left col-12 col-md-6">
                 <form action="" class="contact__form">
-                    <div class="row">
+                    <div class="row my-2">
                         <div class="col-6">
-                            <input type="text" placeholder="Nombre" class="contact__input form-control my-2 bg-white">
+                            <input type="text" placeholder="Nombre" class="contact__input form-control bg-white">
                         </div>
                         <div class="col-6">
-                            <input type="text" placeholder="Apellido" class="contact__input form-control my-2 bg-white">
+                            <input type="text" placeholder="Apellido" class="contact__input form-control bg-white">
                         </div>
                     </div>
-                    <input type="email" placeholder="Correo" class="contact__input form-control my-2 bg-white">
+                    <input type="email" placeholder="Tu email" class="contact__input form-control my-2 bg-white">
                     <textarea name="Mensaje" id="Mensaje-contact" placeholder="Escribe tu mensaje" class="contact__input bg-white form-control my-2"></textarea>
                     <button type="submit" class="btn btn-primary contact__button w-md-25 w-100 bg-darkblue text-white my-2">Enviar</button>
                 </form>
@@ -169,23 +170,23 @@
                 <div class="contact__RRSS row">
                     <div class="col-12 d-flex align-items-center justify-content-start my-2">
                         <i class="contact__icon fa-solid fa-phone"></i>
-                        <p class="contact__RRSS--text my-auto mx-2">+569 2123 6566</p>
+                        <p class="contact__RRSS--text my-auto mx-2 fw-bold">+569 2123 6566</p>
                     </div>
                     <div class="col-12 d-flex align-items-center justify-content-start my-2">
                         <i class="contact__icon fa-solid fa-envelope"></i>
-                        <p class="contact__RRSS--text my-auto mx-2">miemail@correo.cl</p>
+                        <p class="contact__RRSS--text my-auto mx-2 fw-bold">miemail@correo.cl</p>
                     </div>
                     <div class="col-12 d-flex align-items-center justify-content-start my-2">
                         <i class="contact__icon fa-brands fa-linkedin"></i>
-                        <p class="contact__RRSS--text my-auto mx-2">milinkedin</p>
+                        <p class="contact__RRSS--text my-auto mx-2 fw-bold">milinkedin</p>
                     </div>
                     <div class="col-12 d-flex align-items-center justify-content-start my-2">
                         <i class="contact__icon fa-brands fa-github"></i>
-                        <p class="contact__RRSS--text my-auto mx-2">Mi Github</p>
+                        <p class="contact__RRSS--text my-auto mx-2 fw-bold">Mi Github</p>
                     </div>
                     <div class="col-12 d-flex align-items-center justify-content-start my-2">
                         <i class="contact__icon fa-brands fa-instagram"></i>
-                        <p class="contact__RRSS--text my-auto mx-2">Mi Instagram</p>
+                        <p class="contact__RRSS--text my-auto mx-2 fw-bold">Mi Instagram</p>
                     </div>
                 </div>
             </div>
